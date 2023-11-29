@@ -4,6 +4,7 @@
 ** Cinelog25
 
 ** Crux35
+   - Flight controller (SPI ELRS Version) ELRS X1 (Discontinued)
    #+begin_example
 MCU:STM32F411CEU6 (100MHZ, 512K FLASH)
 Sensor: MPU-6000(SPI connection)
@@ -16,31 +17,69 @@ Built-in 5V 1A BEC
 Flight controller firmware target: CRAZYBEEF4SX1280
    #+end_example
 
+   - Onboard 4in1 ESC
+   #+begin_example
+MCU upgraded to EFM8BB21
+Power supply: 2-4S LiPo/LiPo HVCurrent: 12A continuous peak 15A (3 seconds)
+Support BLHeliSuite programmable
+Factory firmware: F-H-40
+Default protocol: DSHOT300
+   #+end_example
+
    - Betaflight
-	 #+begin_example
-# version
-# Betaflight / STM32F411 (S411) 4.3.0 May 15 2021 / 10:33:08 (norevision) MSP API: 1.44
-# config: manufacturer_id: AIRB, board_name: OMNIBUSF4SD, version: 3a35e73b, date: 2019-09-30T05:46:12Z
-# board: manufacturer_id: HAMO, board_name: CRAZYBEEF4SX1280
-	 #+end_example
+	 | original | 4.3.0 May 15 2021                  |                                |
+	 | up       | STM32F411 (S411) 4.4.3 Nov 14 2023 | Betaflight_Configurator-10.9.0 |
+	 |          |                                    |                                |
+
 
    - Original configuration (diff all)
      : drones/Crux35/BTFL_cli_CRUX35_20231126_111937.txt
 
    - ELRS up
 
-     https://www.happymodel.cn/index.php/2022/09/26/crazybeef4sx1280-4-4-0-support-expresslrs-v3-0-beta-version-firmware-download/
-	 https://www.happymodel.cn/wp-content/uploads/2022/09/betaflight_4.3.1_CRAZYBEEF4SX1280_ICM42688P_ELRS_V3.0.zip
-     https://www.happymodel.cn/index.php/2023/02/13/dump-file-firmware-and-manual-for-crux35-elrs-v2-and-crux35-hdzero-hd-dji-elrs-v2/
+   - ELRS binding frase: edgetx
+   - VTX E/2
+
+** Mobula 6
+   - MCU:STM32F411CEU6 (100MHZ, 512K FLASH)
+   - SPI Receiver Option1: Crazybee F4 Lite FC built-in Frsky SPI D8 RX
+
+   - Betaflight / CRAZYBEEF4FR (C4FR)
+
+     | original | 3.5.7 Mar 15 2019                    |
+     | up       | 'betaflight_4.3.0_STM32F411 RC3.hex' |
+
+	 - runaway
+	   : set align_board_yaw = 90
 
 * Radios
 
-** EdgeTX
+** Radiomaster 16s EdgeTX
+
+
+** DONE LiteRadio 3 Pro Radio Transmitter (BETAFPV)
+
    - Firmware for tlite
+	 | original | edgetx-tlite-2.6.0 |                   |
+	 | ip       | lr3pro-v2.8.5.bin  | ELRS script error |
+	 |          |                    |                   |
    #+begin_example
 FWVERSION  edgetx-tlite-2.6.0 (d9a3a0b7)
 DATE       2022-04-08
 TIME       17:33:05
 BOOTVER    edgetx-tlite-2.6.0 (d9a3a0b7)
-
    #+end_example
+   - update from card https://www.youtube.com/watch?v=WcGOHsM1Yzw
+   - ELRS WiFi
+	 | original | (0a4b85) ISM2G4 |        |
+	 | up       |           3.3.1 | Crux35 |
+	 |          |                 |        |
+
+   #+begin_example
+From here you can update your Transmitter module with RadioMaster_Zorro_2400_TX firmware
+Firmware Rev. master (0a4b85) ISM2G4
+   #+end_example
+
+   - ELRS binding frase: edgetx
+
+**
