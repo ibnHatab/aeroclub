@@ -46,7 +46,7 @@ Default protocol: DSHOT300
    https://www.happymodel.cn/index.php/2019/11/22/happymodel-mobula6-1s-65mm-brushless-whoop-drone/
    #+CAPTION: MOBULA6
    #+NAME: MOBULA6
-   #+ATTR_HTML: :width 300px
+   #+ATTR_HTML: :width 100px
    [[[[./drones/MOBULA6/mobula6.jpg]]]]
 
    - MCU:STM32F411CEU6 (100MHZ, 512K FLASH)
