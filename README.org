@@ -5,13 +5,13 @@
    https://geprc.com/product/geprc-cinelog-25-analog-cinewhoop-drone/
    #+CAPTION: Cinelog25
    #+NAME: MOBULA6
-   [[[[./]]drones/Cinelog25/Cinelog25.jpg]]
+   [[./drones/Cinelog25/Cinelog25.jpg]]
 
 ** DONE Happymodel Crux35 3.5 Inch 4S Micro Freestyle FPV Racing Drone
    https://www.happymodel.cn/index.php/2021/08/30/happymodel-crux35-crux35-digital-hd-3-5-inch-4s-micro-freestyle-fpv-racing-drone/
    #+CAPTION: Crux35
    #+NAME: Crux35
-   [[[[./drones/Crux35/crux35.jpg]]]]
+   [[./drones/Crux35/crux35.jpg]]
 
    - Flight controller (SPI ELRS Version) ELRS X1 (Discontinued)
    #+begin_example
@@ -53,7 +53,7 @@ Default protocol: DSHOT300
    https://www.happymodel.cn/index.php/2019/11/22/happymodel-mobula6-1s-65mm-brushless-whoop-drone/
    #+CAPTION: MOBULA6
    #+NAME: MOBULA6
-   [[[[./drones/MOBULA6/mobula6.jpg]]]]
+    [[./drones/MOBULA6/mobula6.jpg]]
 
    - MCU:STM32F411CEU6 (100MHZ, 512K FLASH)
    - SPI Receiver Option1: Crazybee F4 Lite FC built-in Frsky SPI D8 RX
@@ -74,7 +74,7 @@ Default protocol: DSHOT300
    https://www.happymodel.cn/index.php/2021/07/21/happymodel-crux3nlr-1s-18650-nano-long-range-fpv-drone/
    #+CAPTION: Crux3 NLR
    #+NAME: Crux3 NLR
-   [[[[./drones/Crux3NLR/crux3nlr.jpg]]]]
+   [[./drones/Crux3NLR/crux3nlr.jpg]]
 
    - Flight controller CRAZYBEEF4SX1280
 	 #+begin_example
