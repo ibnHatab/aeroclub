@@ -3,7 +3,9 @@
 * Drones
 ** Cinelog25
 
-** Crux35
+** Happymodel Crux35 3.5 Inch 4S Micro Freestyle FPV Racing Drone
+   https://www.happymodel.cn/index.php/2021/08/30/happymodel-crux35-crux35-digital-hd-3-5-inch-4s-micro-freestyle-fpv-racing-drone/
+
    - Flight controller (SPI ELRS Version) ELRS X1 (Discontinued)
    #+begin_example
 MCU:STM32F411CEU6 (100MHZ, 512K FLASH)
@@ -40,9 +42,16 @@ Default protocol: DSHOT300
    - ELRS binding frase: edgetx
    - VTX E/2
 
-** Mobula 6
+** Mobula 6 1S 65mm brushless whoop drone
+   https://www.happymodel.cn/index.php/2019/11/22/happymodel-mobula6-1s-65mm-brushless-whoop-drone/
+   #+CAPTION: MOBULA6
+   #+NAME: MOBULA6
+   #+ATTR_HTML: :width 300px
+   [[[[./drones/MOBULA6/mobula6.jpg]]]]
+
    - MCU:STM32F411CEU6 (100MHZ, 512K FLASH)
    - SPI Receiver Option1: Crazybee F4 Lite FC built-in Frsky SPI D8 RX
+   - Liflet http://www.happymodel.cn/wp-content/uploads/2020/01/Happymodel-Mobula6-frsky-edition-1s-brushless-whoop-Manual.pdf
 
    - Betaflight / CRAZYBEEF4FR (C4FR)
 
@@ -52,10 +61,30 @@ Default protocol: DSHOT300
 	 - runaway
 	   : set align_board_yaw = 90
 
+	- Mobula6: Complete setup and flashing 48kHz JESC firmware
+	  https://blog.georgi-yanev.com/fpv/mobula6-48khz-jesc-complete-setup-review/
+
+** Happymodel Crux3 NLR 1s 18650 Nano Long Range FPV Drone
+   https://www.happymodel.cn/index.php/2021/07/21/happymodel-crux3nlr-1s-18650-nano-long-range-fpv-drone/
+
+   - Flight controller CRAZYBEEF4SX1280
+	 #+begin_example
+# version
+# Betaflight / STM32F411 (S411) 4.3.0 May 15 2021 / 10:33:08 (norevision) MSP API: 1.44
+# config: manufacturer_id: AIRB, board_name: OMNIBUSF4SD, version: 3a35e73b, date: 2019-09-30T05:46:12Z
+# board: manufacturer_id: HAMO, board_name: CRAZYBEEF4SX1280
+	 #+end_example
+
+   - Betaflight
+	 | original | 4.3.0 May 15 2021 |   |
+	 |          |                   |   |
+
+
 * Radios
 
 ** Radiomaster 16s EdgeTX
 
+**
 
 ** DONE LiteRadio 3 Pro Radio Transmitter (BETAFPV)
 
