@@ -91,11 +91,31 @@ Default protocol: DSHOT300
 
 * Radios
 
-** Radiomaster 16s EdgeTX
+** Radiomaster TX16s EdgeTX
+   https://www.radiomasterrc.com/products/tx16s-mark-ii-radio-controller
 
-**
+   #+CAPTION: Radiomaster TX16s
+   #+NAME: Radiomaster TX16s
+   [[./radios/RadiomasterTX16S/tx16s.png]]
 
-** DONE LiteRadio 3 Pro Radio Transmitter (BETAFPV)
+*** EdgeTX v.2.9.2
+	https://oscarliang.com/flash-edgetx/#Setup-Radio-After-Flashing-EdgeTX
+
+	#+begin_example
+edgetx
+├── c480x272.zip
+├── edgetx-cpn-linux-v2.9.2.zip
+├── edgetx-firmware-v2.9.2.zip
+└── edgetx-sdcard-sounds-en_us-michelle-2.9.0.zip
+	#+end_example
+
+
+
+** TODO LiteRadio 3 Pro Radio Transmitter (BETAFPV)
+   #+CAPTION: LiteRadio 3 Pro
+   #+NAME: LiteRadio 3 Pro
+
+   [[./radios/LiteRadio_3_Pro_Radio_Transmitter/LiteRadio_3_Pro.png]]
 
    - Firmware for tlite
 	 | original | edgetx-tlite-2.6.0 |                   |
