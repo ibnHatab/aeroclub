@@ -168,6 +168,16 @@ Firmware Rev. master (0a4b85) ISM2G4
 
    - binding frase: LR2SE42
 
+* Cameras
+
+** Firefly X Lite II 4K 60 FPS FPV CAM / IMX117 / H22S85 Ambarella chipset
+   https://fireflycameras.com/products/firefly-x-lite-ii-4k-60-fps-fpv-cam-imx117-h22s85-ambarella-chipset
+
+   #+CAPTION: Firefly
+   #+NAME: Firefly
+   [[./cameras/Firefly/firefly.png]]
+
+
 * Apps
 
   #+begin_example
