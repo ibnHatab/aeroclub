@@ -7,6 +7,11 @@
    #+NAME: MOBULA6
    [[./drones/Cinelog25/Cinelog25.jpg]]
 
+   - Betaflight / STM32F411 (S411)
+
+   | original | 4.2.5 Nov 22 2020 |
+   |          |                   |
+
 ** DONE Happymodel Crux35 3.5 Inch 4S Micro Freestyle FPV Racing Drone
    https://www.happymodel.cn/index.php/2021/08/30/happymodel-crux35-crux35-digital-hd-3-5-inch-4s-micro-freestyle-fpv-racing-drone/
    #+CAPTION: Crux35
@@ -86,12 +91,12 @@ Default protocol: DSHOT300
 
    - Betaflight
 	 | original | 4.3.0 May 15 2021 |   |
-	 |          |                   |   |
+	 | up       | 4.3.3             |   |
 
 
 * Radios
 
-** Radiomaster TX16s EdgeTX
+** DONE Radiomaster TX16s EdgeTX
    https://www.radiomasterrc.com/products/tx16s-mark-ii-radio-controller
 
    #+CAPTION: Radiomaster TX16s
@@ -109,9 +114,19 @@ edgetx
 └── edgetx-sdcard-sounds-en_us-michelle-2.9.0.zip
 	#+end_example
 
+** NamimnoRC_Flash_OLED_2.4GHz_TX
 
+   #+CAPTION: NamimnoRC
+   #+NAME: NamimnoRC
 
-** TODO LiteRadio 3 Pro Radio Transmitter (BETAFPV)
+   [[./radios/NamimnoRC_Flash_OLED_2.4GHz_TX/namimno_rc.png]]
+
+   | up | ELRS 4.3.0 |
+   |    |            |
+
+   - binding frase:  TX16S
+
+** DONE LiteRadio 3 Pro Radio Transmitter (BETAFPV)
    #+CAPTION: LiteRadio 3 Pro
    #+NAME: LiteRadio 3 Pro
 
@@ -139,6 +154,19 @@ Firmware Rev. master (0a4b85) ISM2G4
    #+end_example
 
    - ELRS binding frase: edgetx
+
+** LiteRadio_2_SE Radio Transmitter
+   https://betafpv.com/collections/tx/products/literadio-2-se-radio-transmitter
+
+   #+CAPTION: LiteRadio_2_SE
+   #+NAME: LiteRadio_2_SE
+   [[./radios/LiteRadio_2_SE/lr_2_se.png]]
+
+
+   - update ELRS V2 to ELRS V3
+	 https://support.betafpv.com/hc/en-us/articles/22404447195673-How-to-Update-ELRS-V2-to-ELRS-V3
+
+   - binding frase: LR2SE42
 
 * Apps
 
