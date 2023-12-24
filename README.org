@@ -197,31 +197,56 @@ Apps
    [[drones/liftoff_rates.png]]
 
 *** Oscar Liang
-	Tuning Actual Rates
 
-	- Freestyle
-	  - RC Rate – 1.2
-	  - Super Rate – 0.77
-	  - RC Expo – 0.20
+**** Tuning Actual Rates
+	 Guidelines steps:
+	 1. Center Sensitivity:
+		- Cinematic: 50-150
+		- Freestyle: 100-200
+		- Racing / Line of Sight: 150-300
+	 2. Set Max Rate according to your flying style
+        - Cinematic / Racing: 500-800
+        - Freestyle: 600-1000
+        - Line of Sight: 1000+
+	 3. Freestyle to tune Expo
 
-	- Smooth Cruiser:
-	  - RC Rate = 0.80
-	  - RC Expo = 0.00
-	  - Super Rate = 0.65
+	 Freestyle Rates:
+	 | Axes       | Center Sensitivity | Max Rate | Expo |
+	 |------------+--------------------+----------+------|
+	 | Pitch/Roll |                190 |     1000 | 0.70 |
+	 | Yaw        |                200 |      650 | 0.55 |
 
-	Expo is set to zero here on purpose, this is to avoid overreacting
-	in close situations and actually gives you overall smoother
-	result.
+	 Tiny Whoop Rates
+	 | Axes       | Center Sensitivity | Max Rate | Expo |
+	 |------------+--------------------+----------+------|
+	 | Pitch/Roll |                230 |     1000 | 0.62 |
+	 | Yaw        |                250 |     1300 | 0.68 |
 
-	- Aggressive Acro Quad:
-	  - RC Rate, Pitch/Roll = 1.80, Yaw = 2.00
-	  - Super Rate, All = 0.64
-	  - RC Expo, Pitch/Roll = 0.20, Yaw = 0.15
 
-	- Tiny Whoop Rates
-	  - Roll+Pitch: RC Rate 1.2, Super Rate 0.75, Expo 0
-	  - YAW: RC Rate 1.3, Super Rate 0.80 Expo 0
+**** Betaflight Rates
+	 - Freestyle
+	   - RC Rate – 1.2
+	   - Super Rate – 0.77
+	   - RC Expo – 0.20
 
-	If using acro mode, enable crash_recovery, there are some settings
-	(get crash_ in CLI) you might want to tune first to avoid false
-	self-centering.
+	 - Smooth Cruiser:
+	   - RC Rate = 0.80
+	   - RC Expo = 0.00
+	   - Super Rate = 0.65
+
+	 Expo is set to zero here on purpose, this is to avoid overreacting
+	 in close situations and actually gives you overall smoother
+	 result.
+
+	 - Aggressive Acro Quad:
+	   - RC Rate, Pitch/Roll = 1.80, Yaw = 2.00
+	   - Super Rate, All = 0.64
+	   - RC Expo, Pitch/Roll = 0.20, Yaw = 0.15
+
+	 - Tiny Whoop Rates
+	   - Roll+Pitch: RC Rate 1.2, Super Rate 0.75, Expo 0
+	   - YAW: RC Rate 1.3, Super Rate 0.80 Expo 0
+
+	 If using acro mode, enable crash_recovery, there are some settings
+	 (get crash_ in CLI) you might want to tune first to avoid false
+	 self-centering.
